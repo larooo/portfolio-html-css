@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+
+.body-color {
+  background-color: #fa5e64;
+}
+.lara-img {
+  padding: 0;
+  width: 25em;
+  margin: 0 1em;
+}
+
+.Text-area {
+  width: 55%;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  margin: 0.5em;
+}
+.contact {
+  color: aliceblue;
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: 2em;
+  text-align: left;
+  margin-left: 1em;
+}
+#smile {
+  width: 50px;
+  height: 50px;
+  text-align: left;
+}
+.h1 .footer .footer-end #body-end {
+  text-align: left;
+  font-family: "Caveat", cursive;
+}
+.h1,
+.footer,
+.footer-end,
+#body-end {
+  text-align: left;
+  font-family: "Caveat", cursive;
+  font-size: 2em;
+}
+
+.footer {
+  margin-top: 5em;
+}
+
+#body-end {
+  margin-left: -1em;
+}
+.above-all {
+  position: relative;
+  padding: 3em;
+  margin-right: 4em;
+}
+#above {
+  position: absolute;
+  margin: 13em;
+  margin-left: 14em;
+  top: 0;
+  visibility: hidden;
+}
+.lara-img:hover + #above {
+  visibility: visible;
+}
+
+#smile:active,
+#smile:hover {
+  width: 150px;
+}
+
+@media (min-width: 450px) and (max-width: 750px) {
+  .body-color {
+    flex-direction: column;
+  }
+  .side-bar {
+    width: 100%;
+  }
+  .ul-right li {
+    display: inline;
+  }
+  .ul-right li a {
+    margin: 1em;
+  }
+  .above {
+    visibility: hidden;
+  }
+
+  .lara-img {
+    width: 60%;
+    height: 60%;
+  }
+}
+@media (max-width: 450px) {
+  .ul-right li a {
+    margin: 5px;
+  }
+  .lara-img {
+    width: 50%;
+    height: 50%;
+  }
+}
